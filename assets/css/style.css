@@ -1,0 +1,56 @@
+body {
+    background: #000;
+    color: #e0e0e0;
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.scroll {
+    background: rgba(20, 0, 30, 0.8);
+    border: 1px solid #7b00ff;
+    padding: 40px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.glow-text {
+    color: #fff;
+    text-shadow: 0 0 10px #7b00ff;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #2a003a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    background: #7b00ff;
+    transform: scale(1.05);
+}
+
+.crypto-buttons button {
+    background: #3a004a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.crypto-buttons button:hover {
+    background: #7b00ff;
+}
