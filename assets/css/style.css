@@ -1,56 +1,85 @@
 body {
-    background: #000;
-    color: #e0e0e0;
-    font-family: 'Times New Roman', serif;
-    text-align: center;
-    padding: 20px;
-    margin: 0;
+  margin: 0;
+  background: radial-gradient(circle at center, #000000 30%, #0b0f23);
+  color: #ffd97d;
+  font-family: 'Georgia', serif;
+  text-align: center;
 }
 
-.scroll {
-    background: rgba(20, 0, 30, 0.8);
-    border: 1px solid #7b00ff;
-    padding: 40px;
-    max-width: 600px;
-    margin: 50px auto;
-    border-radius: 10px;
+.container {
+  padding: 40px 20px;
 }
 
-.glow-text {
-    color: #fff;
-    text-shadow: 0 0 10px #7b00ff;
-    font-size: 24px;
-    margin: 20px 0;
+h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: gold;
+  letter-spacing: 3px;
 }
 
-.button {
-    display: inline-block;
-    padding: 12px 25px;
-    background: #2a003a;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-size: 18px;
-    transition: all 0.3s;
+.symbol-glow {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 20px;
+  border: 2px solid gold;
+  border-radius: 50%;
+  box-shadow: 0 0 40px gold;
 }
 
-.button:hover {
-    background: #7b00ff;
-    transform: scale(1.05);
+button {
+  background: transparent;
+  border: 1px solid gold;
+  color: gold;
+  padding: 12px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: 0.3s ease;
 }
 
-.crypto-buttons button {
-    background: #3a004a;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    margin: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s;
+button:hover {
+  background-color: gold;
+  color: #0b0f23;
 }
 
-.crypto-buttons button:hover {
-    background: #7b00ff;
+.hidden {
+  display: none;
+}
+
+#welcomeText {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #ffeebf;
+  font-style: italic;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  padding: 12px 18px;
+  border: 1px solid gold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-item:hover {
+  background-color: gold;
+  color: #0b0f23;
+}
+
+.content-box {
+  margin-top: 30px;
+  padding: 20px;
+  border-top: 1px solid gold;
+  font-size: 17px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f7e8b8;
 }
